@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 2.8.12)
 project(vins_estimator)
 
 set(CMAKE_BUILD_TYPE "Release")
@@ -13,7 +13,6 @@ find_package(catkin REQUIRED COMPONENTS
     nav_msgs
     tf
     cv_bridge
-    visualization_msgs
     )
 
 find_package(OpenCV REQUIRED)

@@ -20,4 +20,8 @@
         <param name="skip_cnt" type="int" value="0" />
         <param name="skip_dis" type="double" value="0" />
     </node>
+    <node name="camv3" pkg="camv3" type="cameratotopic.py"/>
+    
+    <node name="mavimu" pkg="mavimu" type="mavlink_udp.sh"/>
+    
 </launch>
